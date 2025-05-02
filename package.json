@@ -1,0 +1,22 @@
+{
+  "name": "gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node  --watch -r @swc-node/register src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc-node/register": "^1.10.10",
+    "@types/node": "^22.15.3"
+  },
+  "dependencies": {
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^5.13.4",
+    "uuid": "^11.1.0"
+  }
+}
