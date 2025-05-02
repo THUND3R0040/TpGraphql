@@ -1,5 +1,5 @@
 import { createPubSub } from "@graphql-yoga/subscription";
-import { Cv } from "./_db";
+import { Cv } from "@prisma/client";
 
 export type PubSubChannels = {
   cvAdded: [{ cvAdded: Cv }];
